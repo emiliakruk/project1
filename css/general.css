@@ -30,7 +30,10 @@ Primary: #e67e22
 Tints:
 Shades: 
 Accents: 
-Greys: #555
+Greys: 
+#888
+#767676 lightest grey allowed on #fff
+#555
 #333
 #6F6F6F
        
@@ -89,6 +92,9 @@ body {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 .grid--center-v {
   align-items: center;
